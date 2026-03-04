@@ -428,7 +428,7 @@ export default function App() {
         credit_card: Number(form.credit_card),
         active_member: Number(form.active_member),
       };
-      const res = await fetch("http://localhost:5000/predict", {
+      const res = await fetch("https://ai-churnpredictor-app.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
