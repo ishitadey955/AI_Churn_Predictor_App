@@ -63,13 +63,13 @@ The model achieves strong performance with optimized cross-validation.
 ## 🔬 Feature Engineering
 
 The model includes custom engineered features:
-
+```sh
 - `balance_per_product`
 - `salary_balance_ratio`
 - `age_group`
 - `tenure_bucket`
 - `high_balance` (75th percentile threshold)
-
+```
 ---
 
 ## 📊 Top Predictors
@@ -83,17 +83,14 @@ The model includes custom engineered features:
 ---
 
 # 📁 Project Structure
-
+```sh
 Customer-Churn-Prediction/
-│
 ├── Analysis.ipynb
 ├── README.md
-│
 ├── backend/
 │   ├── app.py
 │   ├── requirements.txt
 │   └── best_churn_pipeline.pkl
-│
 └── frontend/
     ├── index.html
     ├── package.json
@@ -101,7 +98,7 @@ Customer-Churn-Prediction/
         ├── App.jsx
         ├── App.css
         └── main.jsx
-
+```
 ---
 
 # 🚀 Installation Guide
@@ -114,11 +111,11 @@ cd Customer-Churn-Prediction
 ---
 
 3️⃣ Run Backend
-
+```sh
 cd backend  
 pip install -r requirements.txt  
 python app.py  
-
+```
 Backend runs at:
 
 http://localhost:5000  
@@ -136,11 +133,11 @@ Expected response:
 4️⃣ Run Frontend
 
 Open a new terminal:
-
+```sh
 cd frontend  
 npm install  
 npm run dev  
-
+```
 Frontend runs at:
 
 http://localhost:5173  
