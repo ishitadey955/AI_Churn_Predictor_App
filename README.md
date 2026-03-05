@@ -214,7 +214,7 @@ Gradient Boosting delivered the best performance and was selected for deployment
 
 ---
 
-# 🙋 Author
+# Author
 
 Made by **Ishita Dey**  
 Feel free to ⭐ the repo if you found it useful!
