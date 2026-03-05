@@ -104,10 +104,10 @@ Customer-Churn-Prediction/
 # 🚀 Installation Guide
 
 1️⃣ Clone Repository
-
+```sh
 git clone https://github.com/ishitadey955/AI_Churn_Predictor_App.git 
 cd Customer-Churn-Prediction  
-
+```
 ---
 
 3️⃣ Run Backend
@@ -151,7 +151,7 @@ POST /predict
 Predicts churn probability.
 
 Request Body:
-
+```sh
 {
   "credit_score": 650,
   "country": "France",
@@ -164,14 +164,14 @@ Request Body:
   "active_member": 1,
   "estimated_salary": 60000.0
 }
-
+```
 Response:
-
+```sh
 {
   "churn": 0,
   "probability": 0.0304
 }
-
+```
 ---
 
 GET /health  
@@ -199,14 +199,14 @@ Deploy
 ---
 
 # 📈 Model Comparison
-
+```sh
 Model                     ROC AUC  
 Logistic Regression       0.7877  
 Random Forest             0.8486  
 Gradient Boosting         0.8628  
 AdaBoost                  0.8462  
 SVC                       0.8351  
-
+```
 Gradient Boosting delivered the best performance and was selected for deployment.
 
 ---
